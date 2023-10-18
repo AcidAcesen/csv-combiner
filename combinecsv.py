@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Read the first CSV file
-df1 = pd.read_csv('C:/Users/fadil/Downloads/apslogs(6).csv')
+df1 = pd.read_csv('')
 
 # Read the second CSV file
-df2 = pd.read_csv('C:/Users/fadil/Downloads/15 LOG.csv')
+df2 = pd.read_csv('')
 
 # Combine the DataFrames, keeping only unique rows
 combined_df = pd.concat([df1, df2]).drop_duplicates()
